@@ -1,0 +1,81 @@
+.plan
+  margin-bottom: 150px
+  &-buttons
+    background-color: #F7F7FB
+    border-radius: 10px
+  &-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 82px
+    &__title
+      max-width: 523px
+      font-weight: bold
+      font-size: 60px
+      line-height: 70px
+      letter-spacing: -1.87579px
+    &__button
+      font-weight: bold
+      font-size: 16px
+      line-height: 21px
+      text-align: center
+      border: none
+      &--left
+        width: 172px
+        height: 65px
+        background-color: $outline
+        color: $light
+        margin-right: 0
+        border-radius: 10px 0 0 10px
+      &--right
+        width: 172px
+        height: 65px
+        background-color: #F7F7FB
+        color: $main-text-color
+        margin-left: 0
+        border-radius: 0 10px 10px 0
+  &-cards
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-card
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    text-align: center
+    width: 330px
+    height: 441px
+    border-radius: 10px
+    background-color: #F8F8F8
+    &--active
+      width: 376px
+      height: 473px
+      background-color: $primary
+    &__month
+      font-weight: bold
+      font-size: 28px
+      line-height: 56px
+    &__button
+      color: $outline
+      background-color: $light
+      width: 285px
+      height: 60px
+      &--active
+        width: 305px
+        background-color: #9F3919
+        color: $light
+    &__item
+      font-weight: normal
+      font-size: 18px
+      line-height: 28px
+      text-align: center
+      color: $text-color
+      &--active
+        color: $light
+      &--bold
+        font-weight: bold
+        font-size: 60px
+        line-height: 56px
+        text-align: center
+        color: $main-text-color
