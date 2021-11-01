@@ -699,6 +699,7 @@ template {
   line-height: 21px;
   text-align: center;
   border: none;
+  cursor: pointer;
 }
 
 .plan-wrapper__button--left {
@@ -784,15 +785,15 @@ template {
   color: #696871;
 }
 
-.plan-card__item--active {
-  color: #ffffff;
-}
-
 .plan-card__item--bold {
   font-weight: bold;
   font-size: 60px;
   line-height: 56px;
   text-align: center;
   color: #19191B;
+}
+
+.plan-card__item--active {
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
